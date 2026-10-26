@@ -3,102 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CholaVela Labs</title>
+    <meta name="theme-color" content="#10243a">
+    <meta name="description" content="CholaVela Labs builds thoughtful apps for finance, productivity and everyday life.">
+    <title>CholaVela Labs | Thoughtful apps for everyday life</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+
 <header>
     <div class="container">
-        <h1>CholaVela Labs</h1>
-        <p>Building AI, FinTech and Productivity Apps</p>
+        <a class="brand" href="#" aria-label="CholaVela Labs home">
+            <span class="brand-mark" aria-hidden="true">CV</span>
+            <span>CholaVela <strong>Labs</strong></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#apps">Our apps</a>
+            <a href="privacy-policy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </nav>
     </div>
 </header>
 
-<nav>
-    <div class="container">
-        <a href="#about">About</a>
-        <a href="#apps">Apps</a>
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms.html">Terms</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
-
-<section class="hero">
-    <div class="container">
-        <h2>Smart Apps for Everyday Life</h2>
-        <p>
-            CholaVela Labs develops innovative mobile applications focused on
-            finance, productivity and artificial intelligence.
-        </p>
-    </div>
-</section>
-
-<section id="about" class="section">
-    <div class="container">
-        <h2>About Us</h2>
-        <p>
-            CholaVela Labs is a technology studio based in Chennai, India.
-            We build practical, elegant and intelligent applications that
-            simplify daily life and empower users through technology.
-        </p>
-    </div>
-</section>
-
-<section id="apps" class="section alt">
-    <div class="container">
-        <h2>Upcoming Apps</h2>
-
-        <div class="card">
-            <h3>SIP Planner Pro</h3>
-            <p>Investment planning and wealth projection calculator.</p>
+<main id="main">
+    <section class="hero">
+        <div class="container hero-content">
+            <p class="eyebrow"><span></span> Independent app studio · Chennai, India</p>
+            <h1>Technology that makes<br><span>everyday life simpler.</span></h1>
+            <p class="hero-copy">
+                Thoughtful apps for your money, your work and everything in between —
+                designed to be useful, clear and a pleasure to use.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" href="#apps">Explore our apps <span aria-hidden="true">↓</span></a>
+                <a class="button button-text" href="#about">Meet the studio <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-note"><span aria-hidden="true">✳</span> Ideas in progress. Built with purpose.</div>
         </div>
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+    </section>
 
-        <div class="card">
-            <h3>Expense Tracker</h3>
-            <p>Simple personal finance and budgeting solution.</p>
+    <section id="about" class="section about-section">
+        <div class="container about-layout">
+            <div class="section-label">01 <span> / </span> About us</div>
+            <div class="about-copy">
+                <h2>Small studio.<br>Big ideas for daily life.</h2>
+                <p>
+                    CholaVela Labs is a technology studio based in Chennai, India.
+                    We build practical, elegant and intelligent applications that
+                    simplify daily life and empower people through technology.
+                </p>
+            </div>
+            <div class="about-aside">
+                <span class="aside-mark" aria-hidden="true">✳</span>
+                <p>Useful by design.<br>Thoughtful by default.</p>
+            </div>
         </div>
+    </section>
 
-        <div class="card">
-            <h3>Interview Coach AI</h3>
-            <p>AI-powered interview preparation platform.</p>
+    <section id="apps" class="section apps-section">
+        <div class="container">
+            <div class="section-heading">
+                <div>
+                    <div class="section-label">02 <span> / </span> What we're making</div>
+                    <h2>Ideas taking shape<span class="accent-dot">.</span></h2>
+                </div>
+                <p>A first look at the tools we're building for a more capable everyday.</p>
+            </div>
+
+            <div class="app-grid">
+                <article class="card card-finance">
+                    <div class="card-top"><span class="app-icon" aria-hidden="true">↗</span><span class="app-category">FINANCE</span></div>
+                    <h3>SIP Planner Pro</h3>
+                    <p>Plan your investments and explore how your wealth could grow over time.</p>
+                    <span class="app-status"><span></span> In the works</span>
+                </article>
+
+                <article class="card card-budget">
+                    <div class="card-top"><span class="app-icon" aria-hidden="true">＋</span><span class="app-category">MONEY HABITS</span></div>
+                    <h3>Expense Tracker</h3>
+                    <p>A simple way to understand your spending and feel more in control of your budget.</p>
+                    <span class="app-status"><span></span> In the works</span>
+                </article>
+
+                <article class="card card-ai">
+                    <div class="card-top"><span class="app-icon" aria-hidden="true">✳</span><span class="app-category">CAREER · AI</span></div>
+                    <h3>Interview Coach AI</h3>
+                    <p>Build confidence with a smarter, more personal interview practice partner.</p>
+                    <span class="app-status"><span></span> In the works</span>
+                </article>
+
+                <article class="card card-research">
+                    <div class="card-top"><span class="app-icon" aria-hidden="true">⌁</span><span class="app-category">INVESTING · AI</span></div>
+                    <h3>SentiVest AI</h3>
+                    <p>Make sense of market conversations with an investment research assistant.</p>
+                    <span class="app-status"><span></span> In the works</span>
+                </article>
+            </div>
         </div>
+    </section>
 
-        <div class="card">
-            <h3>SentiVest AI</h3>
-            <p>Investment research and sentiment intelligence assistant.</p>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="section">
-    <div class="container">
-        <h2>Contact</h2>
-
-        <p>Email: cholavelalabs@gmail.com</p>
-
-        <p>
-            Website:
-            <a href="https://cholavelalabs.com">
-                cholavelalabs.com
+    <section id="contact" class="contact-section">
+        <div class="container contact-layout">
+            <div>
+                <div class="section-label">03 <span> / </span> Say hello</div>
+                <h2>Have an idea<br>in mind<span class="contact-mark">?</span></h2>
+                <p>We'd love to hear from you. Drop us a note and let's start a conversation.</p>
+            </div>
+            <a class="contact-link" href="mailto:cholavelalabs@gmail.com">
+                cholavelalabs@gmail.com <span aria-hidden="true">↗</span>
             </a>
-        </p>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/cholavelalabs">
-                github.com/cholavelalabs
-            </a>
-        </p>
-    </div>
-</section>
+        </div>
+    </section>
+</main>
 
 <footer>
-    <div class="container">
-        <p>
-            © 2026 CholaVela Labs. All Rights Reserved.
-        </p>
+    <div class="container footer-layout">
+        <a class="footer-brand" href="#">CholaVela <strong>Labs</strong></a>
+        <p>© 2026 CholaVela Labs. All rights reserved.</p>
+        <a href="https://github.com/cholavelalabs">GitHub <span aria-hidden="true">↗</span></a>
     </div>
 </footer>
 
